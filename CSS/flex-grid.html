@@ -1,0 +1,73 @@
+<!--
+    Antes do módulo flexbox layout, havia quatro modos de layout:
+
+    > Block - para seções em uma pagina web
+
+    > Inline - para textos
+    > Table - para dados de tabela bidimensionais
+    > Position - para posição explicita de um elemento
+
+    O módulo de flexbox, torna mais fácil projetar uma estrutura de layout responsiva flexível
+    sen usar flutuação ou posicionamento.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox/Grid Layout</title>
+</head>
+<style>
+/* body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    height: 100nh;
+    display: flex;
+    align-itens: center;
+    }
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: yellow;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    gap: 12px;
+    /* space-around , space-evenly, flex-and, flex-start */
+    }  
+
+.box {
+        width: 100px;
+        height: 100px;
+        display: block;
+        /* display: inline , block */
+    }
+
+.box-1 {
+    background: blueviolet;
+}
+
+.box-2 {
+    background: pink;
+}
+
+.box-3 {
+    background: yellowgreen;
+}
+</style>
+
+
+<body>
+    <div class="container">
+        <div class="box box-1">Ola1</div>
+        <div class="box box-2">Ola2</div>
+        <div class="box box-3">Ola3</div>    
+    </div>  
+</body>
+</html>

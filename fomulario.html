@@ -1,0 +1,230 @@
+<!-- Block Content (div)
+   >acttion
+   >method - Get metodo padrão
+-->
+
+<form action="" method="post"  enctype="multipart/form-data" >
+    <fieldset name="Contato">
+        <legend> Preencha o Formulário de contato</legend>
+    </fieldset>
+
+<!-- Button-->
+<button type="button" name="" class="" id="">Limpar</button>
+
+</form>
+<br>
+<!--    
+    Label
+    > Associar e identificar um ou mais tag de entrada de dados
+    > Ajuda bastante nas acessibilidade
+
+    Atributos:
+        > for
+            * Usado para fazer a conexão com outros tipos de elementos doe formulario
+-->
+
+
+<form>
+<label>Nome:
+    <input type="text" id="nome">    
+</label>
+ 
+<label for="age">Idade:</label>
+<input type="number" id="age">
+</form>
+<br>
+<!--
+    Datelist
+    > Lista de valores com sugestão para algum elemento input
+    > Usuário poderá selecionar um dis valores ou colocar novos valores
+-->
+<form>
+<datalist id="prof-list">
+    <option value="">Henrique</option>
+    <option value="">Kenia</option>
+    <option value="">Gigi</option>
+    <option value="">Ilza</option>
+</datalist>
+<input type="text" list="prof-list" placeholder="Lista dos Moradores">
+
+</form>
+
+
+<fieldset>
+    <legend> Trabalhando com input"></legend>
+<!-- Input text-->
+
+<input
+type="text"
+placeholder="Preencha seu Nome"
+size="60"
+minlength="8"
+maxlength="20"
+title="Preencha o dado"
+required
+>
+<br>
+<br>
+<!-- Input number-->
+<input
+type="number"
+size="50"
+minlength="5"
+maxlength="12"
+title="Preencha o dado"
+required
+>
+<br>
+<br>
+<!--Input email-->
+<input
+type="email"
+placeholder="Preencha seu email"
+size="24"
+title="Preencha o dado"
+required
+>
+<br>
+<br>
+<!--Input password-->
+<input
+type="password"
+placeholder="Preencha sua senha"
+size="24"
+minlength="8"
+maxlength="16"
+title="Preencha o dado"
+required
+>
+
+<!--Input password-->
+<input
+type="password"
+placeholder="Preencha sua senha"
+size="24"
+title="Sua senha precisa ser hexadecimal"
+pattern="[0-9a-fA-F]{4,8}"
+inputmode="numeric"
+>
+<br>
+
+<button type="submit">Enviar</button>
+<!--Input hidden-->
+<input type="hidden" value="Eu estou escondido :)">
+<!--Input  Color-->
+<input type="color">
+
+<!--Input date-->
+<input type="date">
+<br>
+<input type="datetime">
+<br>
+<input type="datetime-local">
+<input type="month">
+<br>
+<input type="week">
+<br>
+<input type="time">
+
+<!--Input check box-->
+<label for="area">
+    Seu interresse maior é por qual area?
+</label>
+<br>
+<div>
+    <input 
+    type="checkbox" 
+    name="interesse" 
+    id="frontand" 
+    value="Front-End Henrique"> 
+    <label for="frontand">Front-End Henrique</label><br>
+
+    <input 
+    type="checkbox" 
+    name="interesse"
+    id="backand"
+    value="Back-End Kenia"> 
+    <label for="backand">Back-End Kenia</label><br>
+    
+    <input 
+    type="checkbox" 
+    name="interesse"
+    id="desinguiux"
+    value="Desing Ui/UX Gigi"> 
+    <label for="desinguiux"> Desing Ui/UX Gigi</label><br>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<!-- Radio button-->
+<h3>Deseja receber notificação da be.academy</h3>
+<label for="yes">Sim</label>
+<input type="radio" id="yes" name="notification" value="yes">
+
+<label for="no">Não</label>
+<input type="radio" id="no" name="notification" value="no">
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--
+    Select
+Elemento de formulario capaz de criar uma lista de opções a serem selecionadas,
+Dropdown
+-->
+<label for="moradores">Professores:</label>
+<select name="select-moradores" id="moradores" size="5">
+    <option value="">Selecione o morador</option>
+    <option value="Henrique">Henrique</option>
+    <option value="Kenia">Kenia</option>
+    <option value="Giovanna">Giovanna</option>
+    <option value="Ilza">Ilza</option>
+    <option value="Getulio">Getulio</option>
+
+</select>
+<br>
+<br>
+<!-- 
+    Input Seach
+Elemento usado para pesquisar conteúdo
+>Elemento usado para pesquisar conteúdo
+>Parecido com o campo "text" pode receber atributos e complementos
+-->
+
+<input type="search"
+name=""
+title="Busque o usuario pelo id"
+placeholder=""
+size="24"
+pattern="[0-9]{0,3}"
+>
+<br>
+<br>
+<br>
+<!--
+    Manipulando arquivos com file
+    > Usuário poderá fazer um upload de 1 ou mais arquivos
+    de acordo com a extensão
+-->
+<input 
+type="file" 
+value="" 
+accept="image/*"
+name=""
+multiple
+>
+
+
+<button type="submit">Enviar</button>
+</fieldset>
+</form>

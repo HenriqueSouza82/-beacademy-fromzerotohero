@@ -1,0 +1,62 @@
+<!--
+    Fluxo de leitura
+1. Origem da folha de estilo
+2. Especificidade
+3. Importância
+
+-> Tipos de Estilos <-
+
+inline > tag style > tag link
+
+-> Especificidade <-
+
+. calculo automatico desenvolvido automatico pela regra css, onde cada tipo de seletor e origem do estilo
+possuem valores a serem considerados.
+
+0. Universal selector, combinator e pseudo-class (:not())
+1. Elementos do tipo seletor e pseudo-elementos (::before, ::after)
+10. Classes e atributos de seletores ([type="radio"])
+100. Seletor ID
+1000. Inline
+
+-------------------------------------------------------
+#at-rules
+ > São regras relacionadas ao comportamento do CSS, começa com sinal de @ seguido do identificador e do valor
+ São as seguintes:
+
+
+
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">    
+
+</head>
+<body>
+  
+</body>
+</html>
+<style>
+    h1 {
+        background: blue;
+    }
+</style>
+<div>
+    <h1 style="background-color: red;">Eu sou um título</h1>
+</div>
+
+
+
+
+
+
+
+

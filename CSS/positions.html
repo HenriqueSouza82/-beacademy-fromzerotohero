@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+<style>
+    main {
+        position: relative;
+        background: paleturquoise;
+        margin-top: 15px;
+    }
+    
+    .box {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+.box-1 {
+    background: green;
+    position: relative;
+    top:20px;
+    left:200px;
+
+}
+
+.box-2 {
+    background: pink;
+    position: absolute;
+    left: 90px;
+
+}
+
+.box-3 {
+    background: yellowgreen;
+    position: fixed;
+    left: 59px;
+}
+
+
+.box-4 {
+    background: rgb(205, 50, 58);
+    position: absolute;
+    left: 150px;
+}
+
+</style>
+
+</head>
+<body>
+    <main>
+    <div class="box box-1">Ola1</div>
+    <div class="box box-2">Ola2</div>
+    <div class="box box-3">Ola3</div>
+    <div class="box box-4">Ola4</div>
+    </main>
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* Folha de stylos */
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+
+
+h1 {
+    color: rgb(0, 255, 234);
+    background: rgb(255, 0, 200);
+    border: 4px solid rgb(115, 128, 0);
+    margin: 32px;
+    padding: 24px;
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+</style>
