@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "DEP-SAQUE"
 // Lógica de Programação
 // Professor   : Marcos Monteiro 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
