@@ -38,6 +38,7 @@ const arrowfunction = (numero1 , numero2) => {
 const result = arrowfunction (20 , 4)
 console.log(result)
 
+//Função anonima
 
 
 
