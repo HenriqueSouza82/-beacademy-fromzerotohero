@@ -1,0 +1,136 @@
+body {
+    color: rgb(115, 8, 8);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background: url(../images/Desig.jpg);
+    background-repeat: repeat;
+    background-position: right;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 5px;
+    font-size: large;
+}
+
+header ul{
+   font-family: 'Sugar';
+   font-size: 20px;
+}
+
+header ul a {
+    color: rgb(115, 8, 8);
+    border: 2px solid rgb(115, 8, 8);
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+header ul a:hover {
+    color:rgb(233, 6, 6);
+    transition: 0.3s all;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+header div h1{
+    background-color: rgb(236, 158, 160);
+    color: rgb(115, 8, 8);
+    font-family: 'Sugar';
+    font-size: 75px;
+    font-weight: normal;
+}
+header div h2{
+    background-color: rgb(236, 158, 160);
+    color: rgb(115, 8, 8);
+    font-family: 'Sugar';
+    font-size: 30px;
+    font-weight: normal;
+}
+
+main {
+    color: rgb(115, 8, 8);
+    font-family: 'Sugar';
+    font-size: 30px;
+    font-weight: normal;  
+}
+
+main h1 {
+    color: rgb(115, 8, 8);
+    font-family: 'Sugar';
+    font-size: 50px;
+    font-weight: normal;
+}
+
+section {
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+  }
+  aside {
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
+  }
+
+main section div h1 {
+    font-family: 'Sugar';
+}
+
+main section div h3 li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+    margin-top: 8px;
+    font-size: large;
+}
+
+main aside div h3 li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+    margin-top: 8px;
+    font-size: large;
+}
+
+form [type="submit"] {
+    height: 70px;
+    width: 100px;
+    background-color: rgb(115, 8, 8);
+    color: rgb(233, 6, 6);
+    font-weight: bold;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+main section div h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 45px;
+    margin-top: 8px;
+    font-size: larger;
+}
+
+main section div a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 45px;
+    margin-top: 8px;
+    font-size: larger;
+    color: rgb(115, 8, 8);
+    text-decoration: none;
+}

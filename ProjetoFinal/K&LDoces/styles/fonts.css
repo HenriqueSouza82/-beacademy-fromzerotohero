@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Sugar';
+    src: url('../components/fonts/Candyshop.otf') format('opentype'), 
+         url('../components/fonts/Candyshop.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Choco';
+    src: url('../components/fonts/ZigZagChocolate.otf') format('opentype'), 
+         url('../components/fonts/ZigZagChocolate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Choco1';
+    src: url('../components/fonts/ChocoCandy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
