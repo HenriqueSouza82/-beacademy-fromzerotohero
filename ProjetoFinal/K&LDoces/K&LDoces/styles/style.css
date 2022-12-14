@@ -1,12 +1,11 @@
 body {
+    color: rgb(115, 8, 8);
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
     background: url(../images/Desig.jpg);
     background-repeat: repeat;
     background-position: right;
-    color: rgb(115, 8, 8);
-    font-size: 30px;
 }
 
 header {
@@ -125,28 +124,9 @@ main aside h2 span {
     color: rgb(233, 6, 6);
 }
 
-.galery {
-    width: 1000px;
-    height: 550px;
-    background-color: transparent;
-    overflow: hidden;
-}
 
-.galery .fotos {
-  width: 500%;
-  animation-name: animacao;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;  
-}
 
-.galery .fotos img {
-    width: 19.9%;
-}
 
-.footer {
-    font: 'Sugar';
-    font-size: 50px;
-    flex-direction: row;
-}
+
 
 
