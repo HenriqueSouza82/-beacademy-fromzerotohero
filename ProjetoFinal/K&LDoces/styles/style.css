@@ -6,7 +6,7 @@ body {
     background-repeat: repeat;
     background-position: right;
     color: rgb(115, 8, 8);
-    font-size: 25px;
+    font-size: 30px;
 }
 
 header {
@@ -145,7 +145,19 @@ main aside h2 span {
 
 .footer {
     font: 'Sugar';
-    font-size: 50px;
+    font-size: 30px;
     flex-direction: row;
+    display: inline-block;
+    margin-top: 5rem;
+    font-weight: 200px bolder;
 }
 
+footer address a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 45px;
+    margin-top: 8px;
+    font-size: larger;
+    color: rgb(115, 8, 8);
+    text-decoration: none;
+    display: inline;
+}
